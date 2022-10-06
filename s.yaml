@@ -90,8 +90,8 @@ services:
         codeUri: './helper'
         handler: index.handler
         runtime: python3
-        timeout: 240
-        memorySize: 512
+        timeout: 120
+        memorySize: 1024
         instanceConcurrency: 1
         environmentVariables:
           KODBOX_URL: ${fc-nas-filemgr.output.url.custom_domain[0].domain}
