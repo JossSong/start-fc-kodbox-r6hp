@@ -90,7 +90,7 @@ services:
         codeUri: './helper'
         handler: index.handler
         runtime: python3
-        timeout: 120
+        timeout: 240
         memorySize: 512
         instanceConcurrency: 1
         environmentVariables:
